@@ -1,0 +1,14 @@
+  210  nano myfirstbashscript.sh  
+  211  chmod +x myfirstbashscript.sh
+  212  ./myfirstbashscript.sh
+  213  cat myfirstbashscript.sh
+  214  history > history17042023.txt
+  215  history 6 > history17042023.txt
+
+#!/bin/bash -u
+
+read -p "What is your name? " {USER}
+
+echo "Hello ${USER}!"
+echo "Today's date is $(date)"
+echo "You are in the directory $PWD"
